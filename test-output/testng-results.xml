@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="44991" started-at="2020-06-27T23:30:07 EDT" finished-at="2020-06-27T23:30:52 EDT">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="44991" started-at="2020-06-27T23:30:07 EDT" finished-at="2020-06-27T23:30:52 EDT">
+      <class name="forapple.ConfiApple">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:forapple.ConfiApple@4f970963]" name="openBrowser" is-config="true" duration-ms="13988" started-at="2020-06-27T23:30:07 EDT" finished-at="2020-06-27T23:30:21 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="TVTest()[pri:0, instance:forapple.ConfiApple@4f970963]" name="TVTest" duration-ms="703" started-at="2020-06-27T23:30:21 EDT" finished-at="2020-06-27T23:30:22 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TVTest -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:forapple.ConfiApple@4f970963]" name="closeBrowser" is-config="true" duration-ms="2" started-at="2020-06-27T23:30:22 EDT" finished-at="2020-06-27T23:30:22 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:forapple.ConfiApple@4f970963]" name="openBrowser" is-config="true" duration-ms="13170" started-at="2020-06-27T23:30:22 EDT" finished-at="2020-06-27T23:30:35 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="checktooperlink()[pri:0, instance:forapple.ConfiApple@4f970963]" name="checktooperlink" duration-ms="1037" started-at="2020-06-27T23:30:35 EDT" finished-at="2020-06-27T23:30:36 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checktooperlink -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:forapple.ConfiApple@4f970963]" name="closeBrowser" is-config="true" duration-ms="1" started-at="2020-06-27T23:30:36 EDT" finished-at="2020-06-27T23:30:36 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:forapple.ConfiApple@4f970963]" name="openBrowser" is-config="true" duration-ms="15034" started-at="2020-06-27T23:30:36 EDT" finished-at="2020-06-27T23:30:51 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="supportlink()[pri:0, instance:forapple.ConfiApple@4f970963]" name="supportlink" duration-ms="988" started-at="2020-06-27T23:30:51 EDT" finished-at="2020-06-27T23:30:52 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- supportlink -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:forapple.ConfiApple@4f970963]" name="closeBrowser" is-config="true" duration-ms="1" started-at="2020-06-27T23:30:52 EDT" finished-at="2020-06-27T23:30:52 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- forapple.ConfiApple -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
