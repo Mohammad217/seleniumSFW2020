@@ -3,15 +3,16 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="forapple.ConfiApple">
+      <class name="homework.Classmethod2">
         <methods>
+          <include name="dbConnect"/>
+          <include name="signUpFbTest"/>
+          <include name="beforeClass"/>
+          <include name="tearDown"/>
           <include name="closeBrowser"/>
-          <include name="checktooperlink"/>
-          <include name="TVTest"/>
-          <include name="supportlink"/>
           <include name="openBrowser"/>
         </methods>
-      </class> <!-- forapple.ConfiApple -->
+      </class> <!-- homework.Classmethod2 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

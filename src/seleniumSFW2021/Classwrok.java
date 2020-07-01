@@ -89,7 +89,7 @@ public class Classwrok extends WebDriverFunction{
 //			
 		}
 		
-//		@AfterMethod
+//		@AfterTest
 //		public void closeBrowser(){
 //			System.out.println (" browser is about to close +++++++ ");
 //			driver.close();
