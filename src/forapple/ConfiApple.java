@@ -1,15 +1,13 @@
 package forapple;
 
 import org.openqa.selenium.By;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.opera.OperaDriver;
-import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.AfterTest;
-import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
@@ -21,7 +19,7 @@ public class ConfiApple{
 	public String tvsLoc="//*[@id=\"ac-globalnav\"]/div/ul[2]/li[6]/a";
 	
 	
-	@BeforeMethod
+	@BeforeTest
 	public void openBrowser() throws InterruptedException {
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\alaud\\Downloads\\chromedriver_win32 (1)\\chromedriver.exe");
 		System.setProperty("webdriver.gecko.driver", "C:\\Users\\alaud\\eclipse-workspace\\seleniumSFW2020\\drivers\\geckodriver.exe");
@@ -55,16 +53,16 @@ public class ConfiApple{
 		driver.findElement(By.xpath(tvsLoc)).click();
 		
 	}
-	@AfterMethod
+	@AfterTest
 	public void closeBrowser(){
 		System.out.println (" browser is about to close +++++++");
-//	    driver.close();
+	    driver.close();
 		System.out.println (" browser is closed +++++++ ");
 	}
-//	@AfterSuite
-//	public void teardown() {
-//		System.out.println("Terminated webdriver++++++++++");
-//		driver.quit();
-//	}
+	@AfterSuite
+	public void teardown() {
+		System.out.println("Terminated webdriver++++++++++");
+		driver.quit();
+	}
 	
 }
